@@ -2,7 +2,7 @@
 async function fetchTrails() {
     try {
         // Replace with your JSON file URL (e.g., hosted in another GitHub repo)
-        const response = await fetch('https://raw.githubusercontent.com/YOUR_USERNAME/trail-data/main/trails.json');
+        const response = await fetch('https://jhds-creations.github.io/trail-data/trails.json');
         const trails = await response.json();
         return trails;
     } catch (error) {
